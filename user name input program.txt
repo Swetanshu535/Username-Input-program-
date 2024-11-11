@@ -1,0 +1,40 @@
+#conditional operators
+num= 8
+result= "even" if num %2 == 0 else "odd"
+print(result)
+
+
+age= 25
+status="Adult" if age > 18 else "Junior"
+print(status)
+
+
+
+name=input("Enter the full name: ")
+result=len(name)
+print(result)
+
+
+name=input("Enter the full name: ")
+#result=name.find("w")
+#result=name.rfind("a")
+#result=name.capitalize()
+#result=name.upper()
+#result=name.lower()
+#result=name.isalpha()
+print(result)
+
+
+inputing username 
+
+username=input("Enter the username: ")
+username.find(" ")
+
+if len(username) > 12:
+    print("Reduce the username it is more than 12")
+elif not username.find(" ")== -1:
+    print("Your username can't contain spaces")
+elif not username.isalpha():
+    print("Your username can't contain numbers: ")
+else:
+    print(f"welcome{username}")
